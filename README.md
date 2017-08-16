@@ -29,7 +29,7 @@ LaTeX Class cho đề tài luận văn theo yêu cầu của khoa Toán Kinh T�
 ## Chú ý
 Class này chỉ dùng cho phiên bản `LaTeX2e` và ưu tiên render bằng `pdflatex`.
 
-Để sử dụng, thêm file `tkthesis.cls` vào cùng với file `.tex`, `.rnw` hoặc `.rmd` và gọi class vào đầu file
+Để sử dụng, thêm file `tkthesis.cls` vào cùng thư mục với file `.tex`, `.rnw` hoặc `.rmd` của bạn và gọi class vào đầu file đó:
 
 > \documentclass{tkthesis}
 
