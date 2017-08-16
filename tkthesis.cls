@@ -6,28 +6,20 @@
 
 \RequirePackage[fontsize=13pt]{scrextend}
 \RequirePackage[utf8]{vietnam}
-\RequirePackage{verbatim}
 \RequirePackage{listings}
+\RequirePackage{mathptmx}
 
-%%%%%%%%%%%%%%%%%%%%%%%%% 
-% TITLE PAGE FORMATTING %
-%%%%%%%%%%%%%%%%%%%%%%%%%
-\RequirePackage{afterpage}
-\RequirePackage{xcolor}
-\RequirePackage{graphicx}
 
-%%%%%%%%%%%%%%%%%%%%%%%%
-% PARAGRAPH FORMATTING %
-%%%%%%%%%%%%%%%%%%%%%%%%
-\RequirePackage{enumitem}
+% \RequirePackage{enumitem}
 % Indent first paragraphs after each sections
 \RequirePackage{indentfirst}
 
-% Document formatting
-\RequirePackage{mathptmx}
-\renewcommand{\baselinestretch}{1.3}
+%%%%%%%%%%%%%%%%%%%
+% PAGE FORMATTING %
+%%%%%%%%%%%%%%%%%%%
 
 % TODO page layout https://en.wikibooks.org/wiki/LaTeX/Page_Layout
+\renewcommand{\baselinestretch}{1.3}
 \setlength{\hoffset}{-1in}
 \setlength{\voffset}{-1in}
 \setlength{\oddsidemargin}{35mm}
@@ -39,17 +31,6 @@
 \setlength{\paperheight}{297mm}
 \setlength{\textwidth}{150mm}
 \setlength{\textheight}{247mm}
-% \setlength{\evensidemargin}{0mm}
-% \setlength{\topmargin}{25mm}
-
-% \RequirePackage{geometry}
-
-% \geometry{
-%   top=25mm,
-%   left=35mm,
-%   bottom=25mm,
-%   right=25mm
-% }
 
 %%%%%%%%%%%%%%%%%%%%%
 % HEADER AND FOOTER %
@@ -59,11 +40,11 @@
 \RequirePackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\lhead{}
-\chead{\normalsize }            % TODO: add header text alias
-\rhead{}
-\lfoot{}
-\cfoot{\normalsize }            % TODO: add footer text alias
+% \lhead{}
+% \chead{\normalsize }            % TODO: add header text alias
+% \rhead{}
+% \lfoot{}
+% \cfoot{\normalsize }            % TODO: add footer text alias
 \rfoot{\normalsize Trang \thepage}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
@@ -125,20 +106,13 @@
 % FIGURES AND TABLES %
 %%%%%%%%%%%%%%%%%%%%%%
 
-\RequirePackage{graphicx}
 \RequirePackage[section]{placeins}
 \RequirePackage[justification=centering]{caption}
 
 %%%%%%%%%%%%%%%%%%%
 % TOC FORMATTING  %
 %%%%%%%%%%%%%%%%%%%
-% \RequirePackage{tocloft}
-% \renewcommand{\cftchappresnum}{\MakeUppercase\chaptername\ }
-% % \renewcommand{\cftchapaftersnum}{          }
-% % \renewcommand{\cftchapaftersnumb}{\newline}
-% \renewcommand{\cftchapdotsep}{\cftdotsep}
-% Package hyperref should be loaded last, as it rewrites many commands.
-% \RequirePackage{tocloft}
+
 \RequirePackage[colorlinks=true, citecolor=blue, linkcolor=blue]{hyperref}
 \RequirePackage[all]{hypcap}
 % Customise for table of contents labeling
@@ -149,7 +123,6 @@
 % CITATION %
 %%%%%%%%%%%%
 % Setting up for citation styles
-% \RequirePackage{natbib}
 \RequirePackage[backend=bibtex,sorting=ydnt,style=authoryear]{biblatex}
 
 % Add number to bibliography
@@ -162,8 +135,6 @@
       \setlength{\parsep}{\bibparsep}}}
   {\endenumerate}
   {\item}
-
-
 
 
 \endinput
