@@ -27,6 +27,21 @@
 \RequirePackage{mathptmx}
 \renewcommand{\baselinestretch}{1.3}
 
+% TODO page layout https://en.wikibooks.org/wiki/LaTeX/Page_Layout
+\setlength{\hoffset}{-1in}
+\setlength{\voffset}{-1in}
+\setlength{\oddsidemargin}{35mm}
+\setlength{\topmargin}{15mm}
+\setlength{\headheight}{5mm}
+\setlength{\headsep}{5mm}
+\setlength{\footskip}{10mm}
+\setlength{\paperwidth}{210mm}
+\setlength{\paperheight}{297mm}
+\setlength{\textwidth}{150mm}
+\setlength{\textheight}{247mm}
+% \setlength{\evensidemargin}{0mm}
+% \setlength{\topmargin}{25mm}
+
 % \RequirePackage{geometry}
 
 % \geometry{
