@@ -4,22 +4,19 @@ LaTeX Class cho đề tài luận văn theo yêu cầu của khoa Toán Kinh T�
 
 ![screenshot](images/screenshot.png)
 
-## Các package yêu cầu
+## Các package được gọi sẵn
+
+Ngoài các phần có thể định nghĩa sẵn bằng các macro của LaTeX, một số package được gọi thêm vào và cần đảm bảo đã cài đặt để `tkthesis` hoạt động bình thường.
 
 - `scrextend`
 - `vietnam`
-- `verbatim`
 - `listings`
-- `afterpage`
-- `xcolor`
-- `graphicx`
-- `enumitem`
+- `mathptmx`
 - `indentfirst`
 - `etoolbox`
 - `fancyhdr`
 - `titlesec`
 - `titletoc`
-- `graphicx`
 - `placeins`
 - `caption`
 - `hyperref`
@@ -33,4 +30,7 @@ Class này chỉ dùng cho phiên bản `LaTeX2e` và ưu tiên render bằng `p
 
 > \documentclass{tkthesis}
 
-Chú ý không dùng 2 lần `\documentclass` và không gọi lại các package liệt kê ở trên với `\usepackage`
+Chú ý không dùng 2 lần `\documentclass` và không gọi lại các package liệt kê ở trên với `\usepackage`.
+
+## Thử nghiệm
+Một số ví dụ viết sẵn có ở trong thư mục [sample](sample/ "sample").

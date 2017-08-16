@@ -8,6 +8,7 @@
 \RequirePackage[utf8]{vietnam}
 \RequirePackage{listings}
 \RequirePackage{mathptmx}
+\RequirePackage{etoolbox}
 
 
 % \RequirePackage{enumitem}
@@ -35,7 +36,6 @@
 %%%%%%%%%%%%%%%%%%%%%
 % HEADER AND FOOTER %
 %%%%%%%%%%%%%%%%%%%%%
-\RequirePackage{etoolbox}
 \patchcmd{\chapter}{\thispagestyle{plain}}{\thispagestyle{fancy}}{}{}
 \RequirePackage{fancyhdr}
 \pagestyle{fancy}
